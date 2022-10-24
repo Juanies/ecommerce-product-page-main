@@ -35,12 +35,15 @@
   <main>
     <section class="option">
           <section>
-            <img class="producto1" src="images/image-product-1.jpg" alt="">
+              <img id="slider1" class="producto1 parte1" src="images/image-product-1.jpg" alt="">
+              <img id="slider2" class="producto1 parte2" src="images/image-product-2.jpg" alt="">
+              <img id="slider3" class="producto1 parte2" src="images/image-product-3.jpg" alt="">
+              <img id="slider4" class="producto1 parte2" src="images/image-product-4.jpg" alt="">
       <div class="rest">
-        <input class="restimg" type="image" src="images/image-product-1-thumbnail.jpg"></input>
-        <input class="restimg" type="image" src="images/image-product-2-thumbnail.jpg"></input>
-        <input class="restimg" type="image" src="images/image-product-3-thumbnail.jpg"></input>
-        <input class="restimg" type="image" src="images/image-product-4-thumbnail.jpg"></input>
+        <div id="img1" class="border"><input id="button1" class="restimg firt ocho" type="image" src="images/image-product-1-thumbnail.jpg"></input></div>
+        <div class=""><input id="button2" class="restimg" type="image" src="images/image-product-2-thumbnail.jpg"></input></div>
+        <div id="img3" class=""><input id="button3" class="restimg" type="image" src="images/image-product-3-thumbnail.jpg"></input></div>
+        <div id="img4" class=""><input id="button4" class="restimg" type="image" src="images/image-product-4-thumbnail.jpg"></input></div>
       </div>
     </section>
     <section class="content">
@@ -54,9 +57,9 @@
       <h3 class="moneydiscount">$250.00</h2>
       <div class="producto">
         <div class="botones">
-          <button class="productomenos">-</button>
-          <span class="numeroproductos">0</span>
-          <button class="productomas">+</button>
+          <button id="resta" class="productomenos">-</button>
+          <span id="resultado" class="numeroproductos">0</span>
+          <button id="suma" class="productomas">+</button>
         </div>
         <div class="addtocart">
           <button class="buttonadtocart">

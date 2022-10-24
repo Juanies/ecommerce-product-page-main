@@ -144,12 +144,34 @@ main{
     -moz-border-radius: 0.7em;
     -ms-border-radius: 0.7em;
     -o-border-radius: 0.7em;
-    box-shadow: 1px 1px 1px 1px var(--Darkgrayishblue);
+}
+
+.firt{
+    filter: opacity(30%);
+    -webkit-filter: opacity(30%);
+}
+
+.ocho{
+    filter: opacity(30%);
+    -webkit-filter: opacity(30%);
+}
+
+.border{
+    height: 5em;
+    border: 2px solid var(--Orange);
+    border-radius: 0.7em;
 }
 
 .producto1{
     height: 30em;
 }
+
+.parte2{
+   
+}
+
+
+
 
 .content{
     margin-left: 7em;
@@ -161,6 +183,11 @@ main{
     color: var(--Orange);
     font-size: 13px;
 }
+
+.parte2{
+    display: none;
+}
+
 
 .title{
     font-size: 43px;
